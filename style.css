@@ -1,0 +1,67 @@
+body{
+    
+    margin: 0;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+   
+    background:url(https://www.oecd.org/media/oecdorg/directorates/directorateforsciencetechnologyandindustry/digital/going-digital.jpg);
+    background-size: cover;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 13px;
+   padding-left: 11px;
+   background-color: rgba(189, 199, 55, 0.6)
+}
+.clock
+{
+    display: flex;
+}
+.clock div{
+   
+    margin: 13px;
+    font-size: 31px;
+    background-color: rgba(189, 199, 55, 0.6);
+    position: relative;
+}
+.clock span{
+    margin: 4px;
+    display: flex;
+    opacity: .7;
+    height: 66px;
+    width: 99px;
+    justify-content: center ;
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+}
+.clock .text{
+    height: 33px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    background-color: darkorange;
+    display: block;
+    text-align: center;
+    padding-top: 11px;
+ 
+}
+.clock .ampm{
+   
+    bottom: 0;
+    width: 61px;
+    height: 33px;
+    background-color:greenyellow ;
+    padding: 6px;
+    
+    position: absolute;
+}
+
+
